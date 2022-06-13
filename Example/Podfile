@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'M25CTools_Example' do
+  pod 'M25CTools', :path => '../'
+
+  target 'M25CTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
