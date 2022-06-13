@@ -1,0 +1,16 @@
+PODS:
+  - M25CTools (0.1.0)
+
+DEPENDENCIES:
+  - M25CTools (from `../`)
+
+EXTERNAL SOURCES:
+  M25CTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  M25CTools: 1361cce96cf93480aced28e352e1bb9cfd2da2ed
+
+PODFILE CHECKSUM: b234bf30bb8fe2209f60d9b65cc22a3efde384bb
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module M25CTools {
+  umbrella header "M25CTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

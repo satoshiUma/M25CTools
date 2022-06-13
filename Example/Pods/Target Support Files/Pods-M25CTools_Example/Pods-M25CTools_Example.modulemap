@@ -1,0 +1,6 @@
+framework module Pods_M25CTools_Example {
+  umbrella header "Pods-M25CTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
