@@ -1,5 +1,5 @@
 PODS:
-  - M25CTools (0.1.0)
+  - M25CTools (0.1.1)
 
 DEPENDENCIES:
   - M25CTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  M25CTools: 1361cce96cf93480aced28e352e1bb9cfd2da2ed
+  M25CTools: a51c408857dcdc14f56a2794a5d49bd8f2642137
 
 PODFILE CHECKSUM: b234bf30bb8fe2209f60d9b65cc22a3efde384bb
 

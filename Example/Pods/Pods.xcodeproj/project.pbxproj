@@ -11,12 +11,12 @@
 		20CF6C8E75B5E67968A317F7E284D71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		24E2BDB322707BF7AD4A462DA9912EE5 /* Pods-M25CTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96863AC7D406D9937E596FDECD0A4902 /* Pods-M25CTools_Example-dummy.m */; };
 		5433F3A8A957C09CF4E97FB1D8F49940 /* Pods-M25CTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE847DB0E6C88B24F7D1C2825DEC19 /* Pods-M25CTools_Tests-dummy.m */; };
+		72516D19B775445C592AC5AD4480751F /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F65712369E2F7CBB8B4252F6F0DC6 /* Tools.swift */; };
 		7D5E291C517162C603421CBD36B24AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BC85CDB1DD8E9A606D8F63CB43FB6D90 /* Pods-M25CTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE07A390D042BB3D86E321B40B4BD5F6 /* Pods-M25CTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9FE491C318E4098015095C040D2D4B2 /* M25CTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4DCE341BBA154EF55483BA53541ED /* M25CTools-dummy.m */; };
+		BE29FE346E5E93CE4C6B6F9CAE532618 /* M25CTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1D01CC04A0F9C7CE48F1445C07A71 /* M25CTools-dummy.m */; };
 		DAF12A026F250A59E3731282137093B1 /* Pods-M25CTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1515B6903C32690211300FD8BEFB034E /* Pods-M25CTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E07802342606A72F019B18B77D74ED05 /* M25CTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B98716A19ACF704B6281435FF0F11154 /* M25CTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAC1786BEE629B0E0C807B85E455C6EB /* MCTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9459CC2300BD581DFCD079A514C6181 /* MCTools.swift */; };
+		E07802342606A72F019B18B77D74ED05 /* M25CTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1471C7E748ED4EB53A7F7F40273070 /* M25CTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,36 +40,36 @@
 		1515B6903C32690211300FD8BEFB034E /* Pods-M25CTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M25CTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		2C6EFF2E68D2F2EB7DA82F6329058245 /* Pods-M25CTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M25CTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2FF48EB65161313A6EE81D2D1F45DDCF /* Pods-M25CTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M25CTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		315B8D032B3398FA54A122359847D692 /* M25CTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M25CTools.modulemap; sourceTree = "<group>"; };
 		376F7C67CBD6A769302F6CA1F27210AD /* Pods-M25CTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-M25CTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4551BF2405775FD6DF48535C51C6E52D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4CE13FA36E325474CB3DE4EEFFD06C39 /* M25CTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M25CTools-Info.plist"; sourceTree = "<group>"; };
+		47402665A0453210EFE69034B687503E /* M25CTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M25CTools-Info.plist"; sourceTree = "<group>"; };
+		4753DBD38AB60D07821DE1FE52464C52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4E377A94C1534B1DE74ECAE1E531CCFB /* Pods-M25CTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M25CTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		508201D74F5F581A4737FAFA92B3A348 /* M25CTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M25CTools.debug.xcconfig; sourceTree = "<group>"; };
 		5BB34F1ECE11A537FEB4D1433202102A /* M25CTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M25CTools; path = M25CTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C61EC18C24E4AF303E709D7165B533D /* Pods-M25CTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M25CTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5EEA400AD85A89DD10C4A35CA954BF1F /* Pods-M25CTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M25CTools_Example-Info.plist"; sourceTree = "<group>"; };
-		5F3A606E904C6A62CA62C66E26B1F834 /* M25CTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M25CTools.debug.xcconfig; sourceTree = "<group>"; };
-		64E9E5991C6C4433E8B86F2FC2E47A9A /* M25CTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M25CTools.modulemap; sourceTree = "<group>"; };
+		6109118A85AA69E411CE8195CF3606E1 /* M25CTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M25CTools.release.xcconfig; sourceTree = "<group>"; };
 		6842FA36B9518A3C7B44F5806FBCA5CF /* Pods-M25CTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M25CTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		85BCFE8691AD79CDD6FA0CF068219FC4 /* Pods-M25CTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-M25CTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8666A4C66697FD2A29768771088E95D1 /* M25CTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = M25CTools.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		9340DBF08A86EEEA135B71EB1BF768D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96863AC7D406D9937E596FDECD0A4902 /* Pods-M25CTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M25CTools_Example-dummy.m"; sourceTree = "<group>"; };
+		9BD1D01CC04A0F9C7CE48F1445C07A71 /* M25CTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M25CTools-dummy.m"; sourceTree = "<group>"; };
 		9C593AC156A68ADB4096069D7A04E3F3 /* Pods-M25CTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-M25CTools_Tests"; path = Pods_M25CTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A42CE5793DC7836E79CB9D63644C83 /* Pods-M25CTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-M25CTools_Tests.modulemap"; sourceTree = "<group>"; };
 		A2DE847DB0E6C88B24F7D1C2825DEC19 /* Pods-M25CTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M25CTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		A9459CC2300BD581DFCD079A514C6181 /* MCTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MCTools.swift; sourceTree = "<group>"; };
 		B0D10E4539198E0773398DD690993DC6 /* Pods-M25CTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M25CTools_Tests-Info.plist"; sourceTree = "<group>"; };
-		B98716A19ACF704B6281435FF0F11154 /* M25CTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M25CTools-umbrella.h"; sourceTree = "<group>"; };
+		BD0F65712369E2F7CBB8B4252F6F0DC6 /* Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tools.swift; path = M25CTools/Classes/Tools.swift; sourceTree = "<group>"; };
+		C3E09BD050A50842DD1D876451CDB1F8 /* M25CTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = M25CTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C86D96DB43532197A60C6F1C50E6AF6A /* Pods-M25CTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-M25CTools_Example.modulemap"; sourceTree = "<group>"; };
 		C915F809855DA9FCCBE9198C2F1E6237 /* Pods-M25CTools_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-M25CTools_Example"; path = Pods_M25CTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1471C7E748ED4EB53A7F7F40273070 /* M25CTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M25CTools-umbrella.h"; sourceTree = "<group>"; };
 		D5501E5440291B99557F0ADAEE2697F4 /* Pods-M25CTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M25CTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE07A390D042BB3D86E321B40B4BD5F6 /* Pods-M25CTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M25CTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E380B7668E85B94D7AF08A2F8176D22F /* Pods-M25CTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M25CTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E545AF0B9116E64E6089DBB00D30850C /* M25CTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M25CTools-prefix.pch"; sourceTree = "<group>"; };
-		ECB4DCE341BBA154EF55483BA53541ED /* M25CTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M25CTools-dummy.m"; sourceTree = "<group>"; };
-		ED8D87DCF26127BD267A187971B6006D /* M25CTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M25CTools.release.xcconfig; sourceTree = "<group>"; };
+		EFDA4F2DD5E70F3A7E1FC4AC018D6AF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F396B5759C3EEE6C7B777FD8A9FF878F /* M25CTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M25CTools-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,16 +124,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		57969A36DB5873DC97AE4C0FABDCF6D2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4551BF2405775FD6DF48535C51C6E52D /* LICENSE */,
-				8666A4C66697FD2A29768771088E95D1 /* M25CTools.podspec */,
-				9340DBF08A86EEEA135B71EB1BF768D6 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		5FD9AD70E68241633E64EAFC8A11E5B5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,15 +133,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6C390EF240B3996F5AD5DDD8CA27605B /* M25CTools */ = {
+		7B7784822E9843FF67721431473C52FC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E5D8308128581BAD00AC4B36 /* Classes */,
-				57969A36DB5873DC97AE4C0FABDCF6D2 /* Pod */,
-				EDCF896215A352D1BAD73B8EA9253D3C /* Support Files */,
+				EFDA4F2DD5E70F3A7E1FC4AC018D6AF7 /* LICENSE */,
+				C3E09BD050A50842DD1D876451CDB1F8 /* M25CTools.podspec */,
+				4753DBD38AB60D07821DE1FE52464C52 /* README.md */,
 			);
-			name = M25CTools;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7BDBC0B95D120DAFC1B0E52C435B80EF /* Products */ = {
@@ -162,6 +151,32 @@
 				9C593AC156A68ADB4096069D7A04E3F3 /* Pods-M25CTools_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A42920ED1CC504975A59563F495E36A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				315B8D032B3398FA54A122359847D692 /* M25CTools.modulemap */,
+				9BD1D01CC04A0F9C7CE48F1445C07A71 /* M25CTools-dummy.m */,
+				47402665A0453210EFE69034B687503E /* M25CTools-Info.plist */,
+				F396B5759C3EEE6C7B777FD8A9FF878F /* M25CTools-prefix.pch */,
+				CF1471C7E748ED4EB53A7F7F40273070 /* M25CTools-umbrella.h */,
+				508201D74F5F581A4737FAFA92B3A348 /* M25CTools.debug.xcconfig */,
+				6109118A85AA69E411CE8195CF3606E1 /* M25CTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/M25CTools";
+			sourceTree = "<group>";
+		};
+		A541FAA4416EDA5C8013FACD0F7BFF72 /* M25CTools */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F65712369E2F7CBB8B4252F6F0DC6 /* Tools.swift */,
+				7B7784822E9843FF67721431473C52FC /* Pod */,
+				A42920ED1CC504975A59563F495E36A9 /* Support Files */,
+			);
+			name = M25CTools;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -186,32 +201,9 @@
 		E2CD2773B51C0CFEE07E1DE263B871BF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C390EF240B3996F5AD5DDD8CA27605B /* M25CTools */,
+				A541FAA4416EDA5C8013FACD0F7BFF72 /* M25CTools */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E5D8308128581BAD00AC4B36 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A9459CC2300BD581DFCD079A514C6181 /* MCTools.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		EDCF896215A352D1BAD73B8EA9253D3C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				64E9E5991C6C4433E8B86F2FC2E47A9A /* M25CTools.modulemap */,
-				ECB4DCE341BBA154EF55483BA53541ED /* M25CTools-dummy.m */,
-				4CE13FA36E325474CB3DE4EEFFD06C39 /* M25CTools-Info.plist */,
-				E545AF0B9116E64E6089DBB00D30850C /* M25CTools-prefix.pch */,
-				B98716A19ACF704B6281435FF0F11154 /* M25CTools-umbrella.h */,
-				5F3A606E904C6A62CA62C66E26B1F834 /* M25CTools.debug.xcconfig */,
-				ED8D87DCF26127BD267A187971B6006D /* M25CTools.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/M25CTools";
 			sourceTree = "<group>";
 		};
 		F3583D96864CFEA795090F0973769E33 /* Pods-M25CTools_Example */ = {
@@ -266,7 +258,7 @@
 			buildConfigurationList = 17CF4C0A1A8C436A2A31D25DB0B52564 /* Build configuration list for PBXNativeTarget "M25CTools" */;
 			buildPhases = (
 				E98AA47F8F24E6AD1E7F0A68593FB4FE /* Headers */,
-				84DBCB6E9E218D00327C587BA36ED0A4 /* Sources */,
+				5CEECC19EC10A68CCF5FD1D6F3515D0F /* Sources */,
 				AC0A975A0E729A06726C08544D2C6A35 /* Frameworks */,
 				49C0EA58635C77C82EADDC9C0E3C939E /* Resources */,
 			);
@@ -371,20 +363,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5CEECC19EC10A68CCF5FD1D6F3515D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE29FE346E5E93CE4C6B6F9CAE532618 /* M25CTools-dummy.m in Sources */,
+				72516D19B775445C592AC5AD4480751F /* Tools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E14792E6A80093D489D4DCBE85E66E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24E2BDB322707BF7AD4A462DA9912EE5 /* Pods-M25CTools_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84DBCB6E9E218D00327C587BA36ED0A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9FE491C318E4098015095C040D2D4B2 /* M25CTools-dummy.m in Sources */,
-				EAC1786BEE629B0E0C807B85E455C6EB /* MCTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +406,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		104DBFACD36608742B6E49FECC91A42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508201D74F5F581A4737FAFA92B3A348 /* M25CTools.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M25CTools/M25CTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M25CTools/M25CTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M25CTools/M25CTools.modulemap";
+				PRODUCT_MODULE_NAME = M25CTools;
+				PRODUCT_NAME = M25CTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -480,9 +502,9 @@
 			};
 			name = Debug;
 		};
-		2B9C8F3C59AC38A556917FDC64479F6E /* Release */ = {
+		380C153FACAB602B998091B33C9C3327 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED8D87DCF26127BD267A187971B6006D /* M25CTools.release.xcconfig */;
+			baseConfigurationReference = 6109118A85AA69E411CE8195CF3606E1 /* M25CTools.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -503,7 +525,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -576,36 +598,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		87CDAA92B0BC203159B8C28348E45978 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F3A606E904C6A62CA62C66E26B1F834 /* M25CTools.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/M25CTools/M25CTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/M25CTools/M25CTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/M25CTools/M25CTools.modulemap";
-				PRODUCT_MODULE_NAME = M25CTools;
-				PRODUCT_NAME = M25CTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C1E51AC5A3E88BA698AF045546CD2547 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -694,7 +686,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -738,8 +731,8 @@
 		17CF4C0A1A8C436A2A31D25DB0B52564 /* Build configuration list for PBXNativeTarget "M25CTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87CDAA92B0BC203159B8C28348E45978 /* Debug */,
-				2B9C8F3C59AC38A556917FDC64479F6E /* Release */,
+				104DBFACD36608742B6E49FECC91A42D /* Debug */,
+				380C153FACAB602B998091B33C9C3327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
