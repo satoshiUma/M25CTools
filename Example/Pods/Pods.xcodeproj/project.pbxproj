@@ -59,7 +59,7 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A42CE5793DC7836E79CB9D63644C83 /* Pods-M25CTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-M25CTools_Tests.modulemap"; sourceTree = "<group>"; };
 		A2DE847DB0E6C88B24F7D1C2825DEC19 /* Pods-M25CTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M25CTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		A9459CC2300BD581DFCD079A514C6181 /* MCTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCTools.swift; path = M25CTools/Classes/MCTools.swift; sourceTree = "<group>"; };
+		A9459CC2300BD581DFCD079A514C6181 /* MCTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MCTools.swift; sourceTree = "<group>"; };
 		B0D10E4539198E0773398DD690993DC6 /* Pods-M25CTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M25CTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		B98716A19ACF704B6281435FF0F11154 /* M25CTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M25CTools-umbrella.h"; sourceTree = "<group>"; };
 		C86D96DB43532197A60C6F1C50E6AF6A /* Pods-M25CTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-M25CTools_Example.modulemap"; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		6C390EF240B3996F5AD5DDD8CA27605B /* M25CTools */ = {
 			isa = PBXGroup;
 			children = (
-				A9459CC2300BD581DFCD079A514C6181 /* MCTools.swift */,
+				E5D8308128581BAD00AC4B36 /* Classes */,
 				57969A36DB5873DC97AE4C0FABDCF6D2 /* Pod */,
 				EDCF896215A352D1BAD73B8EA9253D3C /* Support Files */,
 			);
@@ -189,6 +189,14 @@
 				6C390EF240B3996F5AD5DDD8CA27605B /* M25CTools */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E5D8308128581BAD00AC4B36 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9459CC2300BD581DFCD079A514C6181 /* MCTools.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		EDCF896215A352D1BAD73B8EA9253D3C /* Support Files */ = {
